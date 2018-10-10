@@ -1,0 +1,181 @@
+body{
+background-image: url("../images/vintage-concrete.jpg");
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+}
+#header{
+width: 100%;
+height: 100px;
+background-color: #ffffff;
+border: 6x;
+border-style: solid;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: solid;
+border-left-style: none;
+border-color: #cccccc;
+margin: auto;  
+}
+.container{
+position: relative;
+left: 15%;
+width: 960px;
+margin: 0;
+}
+h1{
+position: absolute;
+left: 0;
+width: auto;
+height: auto;
+background-color: #4aaaa5;
+text-align: center;
+color: white;
+margin: auto;
+padding: 30px;
+} 
+ul {
+position: absolute;
+right: 0;
+list-style-type: none;
+padding: 10px;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+border: 2px;
+border-style: solid;
+border-top-style: none;
+border-right-style: solid;
+border-bottom-style: none;
+border-left-style: none;
+border-color: #4aaaa5;
+color: grey;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+font-weight: normal;
+font-size: 22px;
+}
+
+#nb a {
+display: block;
+border: 2px;
+border-style: solid;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: none;
+border-left-style: none;
+border-color: #4aaaa5;
+color: grey;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+font-weight: normal;
+font-size: 22px;
+}
+li a:hover {
+height: auto;
+width: auto;
+background-color: #7d9999;
+color: white;
+}
+#body{
+background-color: white;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 40px;
+margin-bottom: 60px;
+}
+h2{
+color:  #4aaaa5;
+font-size: 35px;
+font-weight: bold;
+}
+hr{
+display: block;
+color: grey;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 1.5px;
+}
+#image{
+float: left;
+margin: 10px;
+}
+p{
+letter-spacing: 2px;
+line-height: 1.8;
+margin: auto;
+padding: 10px;
+color: gray;
+}
+#footer {
+display: table;
+height: 100px;
+margin: 0 auto;
+width: 100%;
+}
+.content {
+background: #f2f2f2;
+padding: 40px;
+text-align: center;
+color: white;
+display: table-cell;
+vertical-align: center;
+background-color: #666666;
+border: 8px;
+border-style: solid;
+border-top-style: solid;
+border-right-style: none;
+border-bottom-style: none;
+border-left-style: none;
+border-color: #4aaaa5;
+}
+a.image{
+position: absolute;
+float:left;
+background-color: green;
+width: 200px;
+height: 200px;
+margin: 0;
+      }
+div.text{
+position: absolute;
+bottom: 40px;
+right: 0;
+background-color:#4aaaa5; 
+color: white;
+text-align: center;
+width: 100%;
+height: 50px;
+margin: 0;
+}  
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
